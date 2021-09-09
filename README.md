@@ -303,7 +303,4 @@
                     <input type="reset" value="Reset">
                     </td>
                  </tr>
-           </table>
-        </form>
-    </body>
-</html>
+   
