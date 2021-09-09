@@ -1,15 +1,15 @@
 <html>
            <head>
-                        <title>Student Registration Form</title>
+                        
          </head>
        <body>
                     
-<!body bgcolor="#7FFFD4">
+
 <body background= "92.jpg" style=" background-size: 100% 100%;">
                      
 <form name="frm" action="webpage.html" method="post">
                      <table align="center" cellpadding = "10" bgcolor="#D6EAF8 " >
- <h1 style="color:#05386B"><center>ASANSOL ENGINEERING COLLEGE </h1><br>
+
 
 
 <!----REGISTRATION FORM------------------------------------------>
