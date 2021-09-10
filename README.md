@@ -68,8 +68,5 @@
                                              </td>
 			      
  		          </tr>
-<!----4 cell---------------------------------------------------------------------->  
-                                           <tr align="right">
-                                               <td colspan="2"bgcolor="#5CDB95" height="30">created by Ali Azmat&nbsp;&nbsp;&nbsp;</td>
-		         </tr>
+
 
