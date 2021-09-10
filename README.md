@@ -8,10 +8,8 @@
                                   <table border="0" cellspacing="0" width="100%" height="100%" link="#5CDB95" >
 <!----1 cell---------------------------------------------------------------------->     
                                      <tr align="center" bgcolor="#5CDB95">
-                                             <td colspan="2"height="140"><font size="10"><font color="#05386B">
-                                             <b>My Website</b></font></td>
-                         		     
- 		          </tr>
+                                            <font size="10"><font color="#05386B">
+                                             <b>My Website</b></font>
 <!----behavior----------------------------------------------------------------------> 
                                        <tr bgcolor="#5CDB95">
                                        <td colspan="2">
