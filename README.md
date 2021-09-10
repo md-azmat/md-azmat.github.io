@@ -63,10 +63,6 @@
                                            <video width="854" height="480" controls>
                                            <source src="Nature.mp4" type="video/mp4">
                                             </video>
-                                              </font>
-
-                                             </td>
-			      
- 		          </tr>
+                                              
 
 
