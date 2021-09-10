@@ -42,9 +42,10 @@
                                                        
                                                       <font size="4"><br><br>&nbsp;&nbsp;&nbsp;Photo of college:<br><br>
                                                      
-                                               <center><img src="32.jpeg" alt="college" width="300" height="200"><br><br>
+                                               <center>
+						       <img src="032.jpeg" alt="college" width="300" height="200"><br><br>
    				 Friends<br><br>
-                                              <img src="33.jpeg" alt="college" width="300" height="200"><br><br> 
+                                              <img src="033.jpeg" alt="college" width="300" height="200"><br><br> 
                                                                Friends<br><br>
                                                   
 <!----3.1 cell main content---------------------------------------------------------------------->  
