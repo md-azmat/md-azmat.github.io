@@ -35,7 +35,7 @@
  		          </tr>
 <!----3 cell left side---------------------------------------------------------------------->  
 	                           <tr height="560">
-                                                      <td width="25%"bgcolor="#05386B" valign="top"> 
+                                                      
                                                      <font color="#5CDB95">
             		                      <font size="6">
                                              <b><br>&nbsp;&nbsp;&nbsp;About Me<br></b></font>  
@@ -46,7 +46,7 @@
    				 Friends<br><br>
                                               <img src="33.jpeg" alt="college" width="300" height="200"><br><br> 
                                                                Friends<br><br>
-                                                  </td>
+                                                  
 <!----3.1 cell main content---------------------------------------------------------------------->  
                          		      <td width="75%" bgcolor="#333" valign="top">
                                                      <font color="#5CDB95">
