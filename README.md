@@ -17,9 +17,8 @@
                                        <td colspan="2">
                                        <font size="5">
                                        <font color="#05386B"><marquee behavior="alternate"><b>A website created by me</b>
-                                        </font></marquee><style>body { margin: 0; } </style>
-                                        </td>
-                                         </tr>
+                                       </marquee><style>body { margin: 0; } </style>
+                                       
  
 <!----navigation---------------------------------------------------------------------->  
 		           <tr align="center" bgcolor="#333" >
