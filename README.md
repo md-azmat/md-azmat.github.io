@@ -76,7 +76,3 @@
                                                <td colspan="2"bgcolor="#5CDB95" height="30">created by Ali Azmat&nbsp;&nbsp;&nbsp;</td>
 		         </tr>
 
-                                  </table>
-                          </center>
-                 </body>
-     </html>
