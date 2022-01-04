@@ -1,1 +1,1 @@
-https://github.com/md-azmat/md-azmat.github.io.git
+https://15october.me/index
