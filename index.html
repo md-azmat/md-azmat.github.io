@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<title>Document</title>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="st.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+  
+ 
+
+  
+  
+  
+  <title>nav and footer</title>
+</head>
+<style>
+  ::-webkit-scrollbar
+    {
+        width: 12px;
+    }
+    ::-webkit-scrollbar-thumb
+    {
+      background: linear-gradient(180deg,#7e63da,yellow, rgb(6, 252, 47));
+      border-radius: 6px;
+      -webkit-animation: Gradient 0s ease infinite;
+    -moz-animation: Gradient 0s ease infinite;
+    animation: Gradient 0s ease infinite;
+    }
+    ::-webkit-scrollbar-thumb:hover
+    {
+      background: linear-gradient(-45deg, rgb(241, 220, 26), rgb(6, 252, 47), rgb(0, 26, 255));
+    }
+    @keyframes Gradient {
+    0%{background-position:52% 0%}
+    50%{background-position:49% 100%}
+    100%{background-position:52% 0%}
+}
+</style>
+
+<body>
+
+
+  <div class="wrapper">
+    <header>
+      <nav style="overflow:hidden;position: fixed;z-index:300;">
+        <div class="menu-icon">
+          <i class="fa fa-bars fa-2x"></i>
+        </div>
+
+        <div class="logo">
+          <img src="image/icon2.png" width="60" height="60">
+          Consumer e-Banking Support System
+        </div>
+
+        <div class="menu">
+          <ul>
+            <li>
+              <div class="container h-100">
+                <div class="d-flex justify-content-center h-100">
+                  <div class="searchbar">
+                   
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+
+          </ul>
+
+        </div>
+
+      </nav>
+    </header>
+    
+
+  
+    <iframe id="rotator" src="main.html" width="100%" height="1000"  frameborder="0" ></iframe>
+    <br>
+    
+   
+    <div class="wrapper">
+      <footer class="media_icons">
+        <div>
+          <a href="http://www.facebook.com" class="icon facebook"><span>Facebook</span></a>
+          <a href="http://www.twitter.com" class="icon twitter"><span>Twitter</span></a>
+          <a href="http://www.github.com" class="icon github"><span>GitHub</span></a>
+          <a href="http://www.dribble.com" class="icon dribble"><span>Dribble</span></a>
+          <a href="http://www.pinterest.com" class="icon pinterest"><span>Pinterest</span></a>
+        </div>
+        <div class="footer-copyright" style="color:rgb(245, 245, 245) !important;">
+              <div class="container">
+                <h5>
+                  <p>Copyright © 2021 • Azmat and technology pvt ltd • All rights reserved</b>
+                  </p>
+                </h5><br>
+              </div>
+          </div>
+      </footer>
+    </div>
+    <script type="text/javascript">
+      //Menu-toggle button
+      $(document).ready(function() {
+        $(".menu-icon").on("click", function() {
+          $("nav ul").toggleClass("showing");
+        });
+      });
+
+      //Scrolling Effect
+      $(window).on("scroll", function() {
+        if ($(window).scrollTop()) {
+          $('nav').addClass('black');
+        } else {
+          $('nav').removeClass('black');
+        }
+      });
+
+    </script>
+</body>
+
+</html>
