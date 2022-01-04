@@ -1,0 +1,109 @@
+/*!
+* Slider for Bootstrap
+*
+* Copyright 2012 Stefan Petre
+* Licensed under the Apache License v2.0
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+*/
+.slider {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+.slider.slider-horizontal {
+    width: 70%;
+    height: 55px;
+    margin-top: 15px;
+}
+.slider.slider-horizontal .slider-selection {
+    background-color: #969696;
+    background-image: none;
+    box-shadow: none;
+    border-radius: 6px 0 0 6px;
+    height: 8px;
+    top: -2px;
+    bottom: 0;
+}
+.slider.slider-horizontal .slider-handle {
+    margin-left: -10px;
+    margin-top: -5px;
+    outline: none;
+    border-radius: 20px;
+    background-color: #2e98d6;
+    height: 40px;
+    width: 40px;
+    margin: 0 0 0 -12px;
+    opacity: 1;
+    z-index: 1;
+    position: absolute;
+    top: -19px;
+}
+.filter-section .slider.slider-horizontal .slider-track {
+    height: 12px;
+    background-color: #c8cacd;
+    background-image: none;
+    border-radius: 58px;
+}
+.slider-track {
+    position: absolute;
+    cursor: pointer;
+    height: 3px;
+    background-color: #eae8ef;
+    border-radius: 58px;
+    width: 100%;
+    margin-top: -5px;
+    top: 50%;
+    left: 0;
+}
+.slider input {
+    display: none;
+}
+.slider .tooltip-inner {
+    white-space: nowrap;
+}
+.slider.slider-horizontal .tooltip {
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.slider .tooltip.top .tooltip-arrow {
+    display: none
+}
+.slider .tooltip.top {
+    margin-top: 7px;
+    margin-left: 23px;
+    text-align: center;
+}
+.slider .tooltip-inner {
+    white-space: nowrap;
+    max-width: none;
+    font-size: 14px;
+    background: transparent;
+    color: #5d5d5d;
+}
+.slider-selection {
+    position: absolute;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.slider-handle {
+    position: absolute;
+    background-color: transparent;
+    background-repeat: repeat;
+    background-position: 0 -508px;
+    height: 96px;
+    width: 100px;
+    top: -38px;
+    opacity: 0.8;
+    border: 0 solid transparent;
+}
+.slider-handle.round {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+.slider-handle.triangle {
+    background: transparent none;
+}
+@media only screen and (max-width: 991px) {}

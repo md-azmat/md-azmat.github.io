@@ -1,0 +1,302 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    font-family: "Helvetica Neue",sans-serif;
+    font-weight: lighter;
+}
+
+header {
+    width: 1%;
+    height: 1vh;
+  
+}
+
+.content {
+    width: 94%;
+    margin: 4em auto;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.logo {
+    line-height: 60px;
+    position: fixed;
+    float: left;
+    margin: 0px 46px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+}
+
+nav ul {
+    line-height: 35px;
+    list-style: none;
+    background: #7e63da;/*change navbar top color  */
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    padding-right: 40px;
+    transition: 1s;
+}
+
+nav.black ul {
+    background: #7e63da;  /*change nav background color  */
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 12px 30px;;
+}
+nav ul li:hover {
+    display: inline-block;
+    padding: 12px 30px;
+   
+    border-radius: 5px;
+    transition: 1000ms;
+    background-color: rgba(26, 27, 26, 0.705);   /*cursor change nav text color  */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);  /* change nav text color  */
+    font-weight: bold;
+    font-size: 16px;
+}
+nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);/* change nav text color  */
+    font-size: 16px;
+    transition: 1000ms;
+
+}
+
+.menu-icon {
+    line-height: 60px;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    display: none;
+}
+
+@media(max-width: 786px) {
+
+    .logo {
+          position: fixed;
+          top: 0;
+          margin-top: 16px;
+    }
+
+    
+    nav ul li {
+          box-sizing: border-box;
+          width: 100%;
+          padding: 24px;
+          text-align: center;
+    }
+
+    .menu-icon {
+          display: block;
+    }
+
+}
+    .media_icons{
+        text-align: center;
+        background-color: #7e63da; /* footer background color */
+    }
+
+
+    /* Footer Icons -------------start------------------- */
+
+    
+    .media_icons a{
+      background: rgba(0, 0, 0, 0.945); /* Icons background color */
+        border-radius: 100%;
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        position: relative;
+        width: 50px;
+        height: 50px;
+        margin: 0 2px;
+        padding-top: 12px;
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        transition: all .5s;
+        text-decoration: none;
+        margin: 45px 8px 38px 8px;
+    }
+    a.icon:before{
+        font-family: "FontAwesome", sans-serif;
+        color: rgb(255, 255, 255);  /* icon logo color */
+        font-size: 20px;
+        text-decoration: none;
+    }
+    a.facebook:before{
+        content: '\f09a';
+        text-decoration: none;
+    }
+    a.twitter:before{
+        content: '\f099';
+        text-decoration: none;
+    }
+    a.github:before{
+        content: '\f113';
+        text-decoration: none;
+    }
+    a.dribble:before{
+        content: '\f17d';
+        text-decoration: none;
+    }
+    a.pinterest:before{
+        content: '\f0d2';
+        text-decoration: none;
+    }
+    
+    a span{
+        background: #fff;
+        color: #222;
+        font-size: 14px;
+        font-weight: bold;
+        position: absolute;
+        bottom: 0;
+        left: -20px;
+        right: -25px;
+        padding: 5px 7px;
+        visibility: hidden;
+        opacity: 0;
+        -webkit-transition: all .4s;
+        transition: all .4s;
+        text-decoration: none;
+    }
+    a span:before{
+        content: '';
+        width: 0;
+        height: 0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 5px solid #e91010de;  /* icon pop line */
+        position: absolute;
+        bottom: -5px;
+        left: 40px;
+        text-decoration: none;
+    }
+    a:hover span{
+        bottom: 57px;
+        visibility: visible;
+        opacity: 1;
+        text-decoration: none;
+    }
+    
+    /* hover over the icons now to see the tooltips! */
+    a.facebook:hover{
+        background-color: #4183d7;
+        color: #bfbfbf;
+        text-decoration: none;
+    }
+    a.facebook span{
+        color: #4183d7;
+        text-decoration: none;
+    }
+    a.twitter:hover{
+        background-color: #19b5fe;
+        color: #fff;
+        text-decoration: none;
+    }
+    a.twitter span{
+        color: #19b5fe;
+        text-decoration: none;
+    }
+    a.github:hover{
+        background-color: #000;
+        color: #fff;
+        text-decoration: none;
+    }
+    a.github span{
+        color: #000;
+        text-decoration: none;
+    }
+    a.dribble:hover{
+        background-color: #f62459;
+        color: #fff;
+        text-decoration: none;
+    }
+    a.dribble span{
+        color: #f62459;
+        text-decoration: none;
+    }
+    a.pinterest:hover{
+        background-color: #f22613;
+        color: #fff;
+        text-decoration: none;
+    }
+    a.pinterest span{
+        color: #f22613;
+        text-decoration: none;
+    }
+    /* Footer Icons ----------------------END------------------- */
+
+    
+
+
+/* typing text ----------------------start------------------------------------------*/
+
+  
+.typing-text p{
+    color: rgb(24, 216, 24); /* automatic typing color*/
+    font-family: "Courier";
+    font-size: 25px;
+    margin: 50px 0 0 455px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 454px;
+    animation: type 4s steps(1000, end); 
+    text-align: left;
+  }
+  
+  .typing-text p:nth-child(2){
+    animation: type2 8s steps(60, end);
+    text-align: center;
+  }
+  
+ 
+  
+  .typing-text span{
+    animation: blink 0.8s infinite;
+  }
+  
+  @keyframes type{ 
+    from { width: 0; } 
+  } 
+  
+  @keyframes type2{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+  } 
+  
+  @keyframes blink{
+    to{opacity: .0;}
+  }
+  
+  ::selection{
+    background: rgb(70, 69, 69);
+  }
+/*----------------------------- END---------------------------------------*/
